@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>32 Intersección</title>
+    <script src="calculo.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>PREGUNTA 32</h1>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-10">
+                    <form>
+                        <h2>Rectangulo 1</h2>
+                        <div class="form-group">
+                            <label for="rect1_1">Left</label>
+                            <input type="text" class="form-control" id="rect1_1" placeholder="Ingresa lado" value='10'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect1_2">Top</label>
+                            <input type="text" class="form-control" id="rect1_2" placeholder="Ingresa lado" value='10'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect1_3">Right</label>
+                            <input type="text" class="form-control" id="rect1_3" placeholder="Ingresa lado" value='30'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect1_4">Bottom</label>
+                            <input type="text" class="form-control" id="rect1_4" placeholder="Ingresa lado" value='30'>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-10">
+                    <hr>
+                    <form>
+                        <h2>Rectangulo 2</h2>
+                        <div class="form-group">
+                            <label for="rect2_1">Left</label>
+                            <input type="text" class="form-control" id="rect2_1" placeholder="Ingresa lado" value='20'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect2_2">Top</label>
+                            <input type="text" class="form-control" id="rect2_2" placeholder="Ingresa lado" value='20'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect2_3">Right</label>
+                            <input type="text" class="form-control" id="rect2_3" placeholder="Ingresa lado" value='50'>
+                        </div>
+                        <div class="form-group">
+                            <label for="rect2_4">Bottom</label>
+                            <input type="text" class="form-control" id="rect2_4" placeholder="Ingresa lado" value='50'>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row">
+                    <div class="margentop"></div>
+                    <br>
+
+                    <span>Resultado:</span>
+                    <strong>
+                        <p id="resultado_calculo"></p>
+                    </strong>
+                    <br>
+                    <button class="btn btn-danger" id='btn-calc' onClick="handleButtonCalculo();">
+                        Verificar
+                    </button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            DARWIN PANIAGUA - RETO 2021
+        </footer>
+    </div>
+</body>
+
+</html>
